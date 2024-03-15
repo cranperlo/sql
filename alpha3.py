@@ -1,13 +1,13 @@
 import time
 import mysql.connector
 from datetime import datetime
-host = input("Give host name: ")
-user = input("Give user: ")
-password=input("Give password: ")
-database = input("Give database name: ")
+host1 = input("Give host name: ")
+user1 = input("Give user: ")
+password1 = input("Give password: ")
+database1 = input("Give database name: ")
 
 mydb = mysql.connector.connect(
-    host = host , user = user, password = password, database = databse
+    host = host1 , user = user1, password = password1, database = database1
 )
 mycursor = mydb.cursor()
 
